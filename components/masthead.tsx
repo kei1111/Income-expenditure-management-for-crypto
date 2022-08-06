@@ -49,9 +49,9 @@ const Masthead: React.FC = () => {
         />
       </div>
       <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
-        <h1 className="mb-6 text-4xl xl:text-5xl">beholden</h1>
+        <h1 className="mb-6 text-4xl xl:text-5xl">クリプトノート</h1>
         <h2 className="mb-2 text-2xl xl:text-3xl tracking-tight">
-          <span>APP Development,</span> <span>done right.</span>
+          <span>STEPEN</span> <span>管理アプリ</span>
         </h2>
       </div>
       <div
