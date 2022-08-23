@@ -24,32 +24,21 @@ const Masthead: React.FC = () => {
       style={{
         transform: `translateY(-${progress * 20}vh)`,
       }}
-    >
+    >    
+      <div className="fv-container">
+        <div className="fv-text">
+          <p>STEPNの管理をこのアプリ一つで簡単に。</p>
+          <h1>クリプトノート</h1>
 
-    
-<div className="fv-container">
+          <div className="app_icon"> 
+            <img src="assets/app_icon.png" width="200"></img>
+          </div> 
+        </div> 
 
-      
- <div className="fv-text">
-  <p>STEPNの管理をこのアプリ一つで簡単に。</p>
-  <h1>クリプトノート</h1>
-
-
-<div className="app_icon"> 
- <img src="assets/app_icon.png" width="200"></img>
-</div> 
-</div> 
-       
-       
-       <div className="fv-gazo">
-        <img src="assets/fv_gazo.png" width="100%"></img>
-       </div>
-
-      
-
-     
-
-       </div>
+        <div className="fv-gazo">
+          <img src="assets/fv_gazo.png" width="100%"></img>
+        </div>
+      </div>
     </div>
   );
 };
