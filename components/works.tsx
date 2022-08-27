@@ -4,7 +4,7 @@ import {
   WorkBackground,
   WorkContainer,
   WorkLeft,
-  WorkLink,
+  // WorkLink,
   WorkRight,
 } from "./work";
 import Image from "next/image";
@@ -22,7 +22,7 @@ const Works = () => (
             <WorkLeft progress={progress}>
               <div>We bult</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <WorkLink href="https://example.com">Pink Panda</WorkLink>
+                {/* <WorkLink href="https://example.com">Pink Panda</WorkLink> */}
                 &apos;s app
               </div>
             </WorkLeft>
