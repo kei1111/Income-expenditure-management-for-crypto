@@ -25,7 +25,7 @@ const Masthead: React.FC = () => {
         <h1>クリプトノート</h1>
 
         <div className="app_icon">
-          <Link href="/terms">
+          <Link href="/">
             <a>
               <img src="assets/app_icon.png" width="200"></img>
             </a>
