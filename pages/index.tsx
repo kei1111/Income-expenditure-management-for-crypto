@@ -20,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Masthead />
+      <AboutUs />
       {/* <AboutUs />
       <Skills />
       <Works />
