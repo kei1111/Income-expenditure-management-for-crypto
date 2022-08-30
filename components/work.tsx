@@ -56,7 +56,6 @@ interface LinkProps {
   href: string;
   children: ReactNode;
 }
-
 // export const WorkLink: React.FC<LinkProps> = ({ href, children }) => {
 //   <Link href={href}>
 //     <a
