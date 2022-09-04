@@ -30,12 +30,12 @@ const Masthead: React.FC = () => {
         <h1>クリプトノート</h1>
 
        <div className="app_icon">
-            <Link href="/">
-              <a>
-                <img src="assets/app_icon.png" width="200"></img>
-             </a>
-           </Link>
-          </div>
+         <Link href="/">
+          <a>
+             <img src="assets/app_icon.png" width="200"></img>
+          </a>
+       </Link>
+       </div>
       </div>
 
       <div className="fv-gazo">
