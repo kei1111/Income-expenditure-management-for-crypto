@@ -338,6 +338,22 @@ padding-left: 0;
   width: 37%;
  }
 
+
+ 
+.fv-gazo.is-animated {
+  animation: fadeIn 0.7s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+}
+ 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ 
+
  @media screen and (max-width:820px) {
   .fv-gazo {
     display: block;
@@ -469,7 +485,6 @@ padding-left: 0;
    width: 30%;
    margin: auto;
    padding-bottom: 2%;
-  
  }
 
  @media screen and (max-width:820px) {
@@ -572,6 +587,7 @@ padding-left: 0;
     display: block;
     width: 100%;
     padding-top: 3%;
+    padding-right: 0%;
   }
  }
 
@@ -620,6 +636,7 @@ margin-bottom: 1%;
     display: block;
     width: 100%;
     padding-top: 3%;
+    padding-right: 0%;
   }
  }
 
@@ -687,18 +704,6 @@ font-size: 34px;
 
 .skills_img01 {
   width: 50%;
-}
-
-
-
- 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 @media screen and (max-width:820px) {
