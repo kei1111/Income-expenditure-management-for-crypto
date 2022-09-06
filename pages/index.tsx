@@ -8,6 +8,7 @@ import Works from "../components/works";
 import TrustedBy from "../components/trustedby";
 import ContactUs from "../components/contactus";
 import Footer from "../components/footer";
+import Header from "../components/header";
 
 const Home: NextPage = () => {
   return (
@@ -19,8 +20,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
       <Masthead />
       <AboutUs />
+      <Skills />
+      <Works />
       {/* <AboutUs />
       <Skills />
       <Works />
