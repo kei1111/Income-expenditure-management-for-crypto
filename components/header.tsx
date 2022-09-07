@@ -17,12 +17,7 @@ return (
         <a href="#"><li className="header-nav-item">Point</li></a>
    
       </ul>
-      <div className="header-ham">
-        <div className="menu2"></div>
-        <div className="menu2"></div>
-        <div className="menu2"></div>
-        
-      </div>
+      
     </nav>
     <div className="app_icon_header">
             <Link href="/">
