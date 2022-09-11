@@ -3,7 +3,7 @@ import Member from "./member";
 
 const AboutUs: React.FC = () => {
   return (
-    <section className={`about`}>
+    <section className={`about`} id ="about">
       <div className="about_hed">
         <div className="line_about"></div>
         <h2 className="line">About</h2>
