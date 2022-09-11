@@ -89,7 +89,7 @@ body {
       box-sizing: border-box;
       width: 100%;
       background-color: #fff;
-    
+      position:fixed;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07);
       z-index:1001;
     }
