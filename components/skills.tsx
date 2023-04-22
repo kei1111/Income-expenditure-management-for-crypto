@@ -2,7 +2,7 @@ import React, { useContext, useRef } from "react";
 
 const Skills: React.FC = () => {
   return (
-    <div className="skills">
+    <section className={`skills`} id ="skills">
       <div className="skills_hed">
         <div className="line_skills"></div>
          <h2 className="line">Point</h2>
@@ -41,10 +41,9 @@ const Skills: React.FC = () => {
             <img src="assets/skills_img03.png"></img>
           </div>
         </div>
-        
-  
-</div>
-    </div>
+      </div>
+    
+    </section>
   );
 };
 
