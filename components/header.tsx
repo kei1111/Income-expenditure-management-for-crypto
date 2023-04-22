@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <header className="header">
       <div className="header-inner">
         <div className="logo">
-          <img src="assets/logo.png" />
+          <img src="assets/header_logo.png" />
         </div>
 
         <nav className="header-nav">
