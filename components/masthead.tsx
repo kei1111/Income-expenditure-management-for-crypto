@@ -1,10 +1,8 @@
 import React, { useRef, useContext, useState, useCallback } from "react";
-import Image from "next/image";
 import { ScrollContext } from "../utilis/scroll-observer";
 import Link from "next/link";
 
 const Masthead: React.FC = () => {
-  const [imageLoaded, setImageLoaded] = useState(false);
   const refContainer = useRef<HTMLDivElement>(null);
   const { scrollY } = useContext(ScrollContext);
   let progress = 0;
@@ -13,10 +11,6 @@ const Masthead: React.FC = () => {
   if (elContainer) {
     progress = Math.min(1, scrollY / elContainer.clientHeight);
   }
-
-  const handleImageLoaded = useCallback(() => {
-    setImageLoaded(true);
-  }, []);
 
   return (
     <div className="fv-container">

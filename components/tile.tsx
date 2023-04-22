@@ -1,5 +1,4 @@
 import React, { useRef, useContext, ReactNode } from "react";
-import { render } from "react-dom";
 import { ScrollContext } from "../utilis/scroll-observer";
 
 interface WrapperProps {

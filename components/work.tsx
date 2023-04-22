@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import Link from "next/link";
 
 export const WorkContainer = ({ children }: any) => (
   <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
@@ -51,5 +50,3 @@ export const WorkRight: React.FC<{ progress: number; children: any }> = ({
     </div>
   );
 };
-
-

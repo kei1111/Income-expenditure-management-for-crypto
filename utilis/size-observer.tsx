@@ -1,5 +1,4 @@
 import React, { useState, useCallback, useEffect } from "react";
-import handler from "../pages/api/hello";
 
 interface ScrollValue {
   innerWidth: number;

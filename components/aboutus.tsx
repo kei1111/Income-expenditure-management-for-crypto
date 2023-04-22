@@ -1,5 +1,4 @@
 import React from "react";
-import Member from "./member";
 
 const AboutUs: React.FC = () => {
   return (

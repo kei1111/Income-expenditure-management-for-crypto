@@ -1,10 +1,4 @@
-import React, {
-  useEffect,
-  useContext,
-  useState,
-  useCallback,
-  ReactNode,
-} from "react";
+import React, { useEffect, useState, useCallback, ReactNode } from "react";
 
 interface ScrollValue {
   scrollY: number;
